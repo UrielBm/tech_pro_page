@@ -11,7 +11,7 @@ My GitHub: [github](https://github.com/UrielBm)
 ## Demo
 
 El web podrás encontrarla en la siguiente dirección:
-**Dirección del Link**: [Link-Demo](https://urielbm.github.io/Mi_tienda_de_muebles/)
+**Dirección del Link**: [Link-Demo](https://urielbm.github.io/tech_pro_page/)
 
 ## Correr desde tu máquina
 
