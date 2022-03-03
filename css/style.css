@@ -326,15 +326,15 @@ img {
   background-size: 100%, 70rem;
 }
 .webp .newsletter {
-  background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%),
+  background-image: linear-gradient(to bottom, transparent 50%, #fff 0%),
     url(../img/newsletter.webp);
 }
 .avif .newsletter {
-  background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%),
+  background-image: linear-gradient(to bottom, transparent 50%, #fff 0%),
     url(../img/newsletter.avif);
 }
 .notavif.notwebp .newsletter {
-  background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%),
+  background-image: linear-gradient(to bottom, transparent 50%, #fff 0%),
     url(../img/newsletter.avif);
 }
 @media (min-width: 768px) {
@@ -344,27 +344,15 @@ img {
     padding: 4rem 0;
   }
   .webp .newsletter {
-    background-image: linear-gradient(
-        to right,
-        transparent 50%,
-        var(--white) 0%
-      ),
+    background-image: linear-gradient(to right, transparent 50%, #fff 0%),
       url(../img/newsletter.webp);
   }
   .avif .newsletter {
-    background-image: linear-gradient(
-        to right,
-        transparent 50%,
-        var(--white) 0%
-      ),
+    background-image: linear-gradient(to right, transparent 50%, #fff 0%),
       url(../img/newsletter.avif);
   }
   .notavif.notwebp .newsletter {
-    background-image: linear-gradient(
-        to right,
-        transparent 50%,
-        var(--white) 0%
-      ),
+    background-image: linear-gradient(to right, transparent 50%, #fff 0%),
       url(../img/imagen-mujer.jpg);
   }
 }
