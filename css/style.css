@@ -330,19 +330,11 @@ img {
     url(../img/newsletter.webp);
 }
 .avif .newsletter {
-  background-image: linear-gradient(
-      to bottom,
-      transparent 50%,
-      var(--primary) 0%
-    ),
+  background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%),
     url(../img/newsletter.avif);
 }
 .notavif.notwebp .newsletter {
-  background-image: linear-gradient(
-      to bottom,
-      transparent 50%,
-      var(--primary) 0%
-    ),
+  background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%),
     url(../img/newsletter.avif);
 }
 @media (min-width: 768px) {
@@ -376,19 +368,6 @@ img {
       url(../img/imagen-mujer.jpg);
   }
 }
-@media (min-width: 768px) {
-  .newsletter {
-    background-image: linear-gradient(
-        to right,
-        transparent 50%,
-        var(--white) 0%
-      ),
-      url(../img/newsletter.jpg);
-    background-position: center, -30rem -20rem;
-    background-size: 100%, 100rem;
-    padding: 4rem 0;
-  }
-}
 .wrapper-newsletter {
   display: grid;
   grid-template-rows: repeat(2, 30rem);
@@ -410,7 +389,7 @@ img {
   }
 }
 .text-newsletter h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .form {
   margin-top: 1rem;
